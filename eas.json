@@ -1,0 +1,34 @@
+{
+  "cli": {
+    "version": ">= 5.4.0",
+    "promptToConfigurePushNotifications": false,
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {
+      
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "compar0797@gmail.com",
+        "ascAppId": "6473211569",
+        "appleTeamId": "T8AWVF624S"
+      }
+    }
+  }
+}
