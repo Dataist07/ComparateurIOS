@@ -1,0 +1,47 @@
+{
+    "expo": {
+        "name": "Comparateur Anti Inflation",
+        "slug": "Comparator",
+        "version": "1.0.5",
+        "orientation": "portrait",
+        "icon": "./assets/AppIcon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": [
+          "**/*"
+        ],
+        "ios": {
+          "supportsTablet": true,
+          "bundleIdentifier": "com.minh0797.Comparator",
+          "buildNumber": "8"
+        },
+        "android": {
+          "adaptiveIcon": {
+            "foregroundImage": "./assets/adaptive-icon.png",
+            "backgroundColor": "#ffffff"
+          },
+          "package": "com.minh0797.Comparator"
+        },
+        "web": {
+          "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+          "eas": {
+            "projectId": "1d2e618d-7111-4215-85ee-57993558c526"
+          }
+        },
+        "plugins": [
+          [ 
+            "expo-barcode-scanner",
+            {
+              "cameraPermission": "Nous avons besoin de votre caméra pour pouvoir scanner le numéro code barre de votre carte et l'enregistrer"
+            }
+          ]
+        
+        ]
+      }
+}

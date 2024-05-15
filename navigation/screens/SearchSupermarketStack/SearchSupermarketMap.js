@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { StyleSheet, Text, SafeAreaView, Image } from "react-native";
-import MapView, { Marker} from "react-native-maps";
+import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 
 const SearchSupermarketMap = ({ filteredData }) => {
   const mapRef = useRef(null);
